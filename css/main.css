@@ -1,0 +1,95 @@
+* {margin:0;padding:0;
+   text-transform:capitalize;
+   box-sizing:border-box;
+   transition: all 0.2s linear;
+   font-family:'Poppins',sans-serif;
+   scroll-behavior:smooth;
+   list-style-type:none;
+   text-decoration:none !important;}
+
+*::selection {background:#fff;}
+
+body {overflow-x:hidden;}
+
+:root {--primary-color:#6923D0;
+       --primary-color1:#f4f0fa;
+       --primary-color2:#58555e;
+       --first-color-light:#4b0ea7;
+       --title-color:#19181b;
+       --color-light:#f9f6fd;
+       --gray:#8d8d8d;
+       --gray-dark:#343a40;
+       --light:#f8f9fa;
+       --dark:#343a40;
+
+       --font-mont:'Mont', cursive;
+       --font-Rale: 'Rale', cursive;
+
+       --box-shadow:0 0 .5rem #090a0a7a;
+       --box-shadow2:0 .5rem 1.5rem #0d2e2e23;
+       --box-shadow3:0 .3rem 4rem #252c2c2f;
+       --box-shadow4:0 0 4px #000;
+       --box-shadow5:0 0 40px 20px rgba(0,0,0,0.26);
+       --box-shadow6:5px 5px 5px #eee;}
+
+
+/************************ 
+  # Start Form Section
+************************/
+.form {background-image:url(../img/slider1.jpg);
+       background-repeat:no-repeat;
+       background-size:cover;
+       background-position:center;
+       height:100vh;
+       display:flex;
+       align-items:center;
+       justify-content:center;}
+
+.form form {width:40%;
+            height:18rem;
+            box-shadow:var(--box-shadow5);
+            background:rgba(0,0,0,0.8);
+            margin:auto;}
+
+.form form h2 {color:#fff;
+               text-align:center;
+               margin-top:1rem;}
+
+.form form .input-box {width:80%;
+                       margin:2rem auto;
+                       padding:0.5rem 0.3rem;
+                       color:#fff;
+                       border-bottom:1px solid #fff;
+                       position:relative;}
+
+.form form .input-box input {outline:none;
+                             border:none;
+                             background:transparent;
+                             color:#fff;}
+
+::placeholder {color:#ccc;}
+
+.form form #faeye-1,
+.form form #faeye-2 {cursor:pointer;}
+
+.form form .eye {position:absolute;
+                 right:1px;
+                 bottom:5px;}
+
+.form form .eye .fa-eye {display:none;}
+
+.form .login-btn {width:70%;
+                  display:block;
+                  margin:1rem auto;
+                  padding:0.4rem 0;
+                  outline:none;
+                  border:1px solid #fff;
+                  color:#fff;
+                  font-size:1rem;
+                  font-weight:bold;
+                  background:transparent;
+                  cursor:pointer;
+                  transition:all 0.3s linear;}
+
+.form .login-btn:hover {background:#fff;
+                        color:rgb(82, 54, 4);}
